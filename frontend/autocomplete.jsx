@@ -7,10 +7,8 @@ class Autocomplete extends React.Component{
         this.state = {
             inputVal: ''
         };
-
-        this.matches = this.matches.bind(this);
-        this.selectName = this.selectName(this);
-        this.handleInput = this.handleInput(this);
+        this.selectName = this.selectName.bind(this);
+        this.handleInput = this.handleInput.bind(this);
     }
     handleInput(event){
         this.setState({inputVal: event.currentTarget.value});
