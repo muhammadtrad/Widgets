@@ -91,3 +91,29 @@
     display:flex;
     justify-content: space-around;
 }
+
+.weather{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    background-color: yellow;
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1550354256-48abc7b2318c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDk0fQ&auto=format&fit=crop&w=500&q=60);
+    background-position-y: 20%;
+}
+
+.weather p{
+    margin: 10px;
+}
+
+.loading{
+    margin: 20px;
+}
