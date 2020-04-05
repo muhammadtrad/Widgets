@@ -12,6 +12,8 @@
     background-image: url(https://images.unsplash.com/photo-1475727946784-2890c8fdb9c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMjU4fQ&auto=format&fit=crop&w=1062&q=807);
     background-size: cover;
     background-position-y: 80%;
+    
+
 }
 
 .clock p {
@@ -129,6 +131,8 @@
     margin: 0px 20px 0px 0px;
     padding: 10px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-image: url(https://images.unsplash.com/photo-1556856837-de7b06a49293?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
 }
 
 .auto > *{
@@ -144,4 +148,39 @@
     opacity: 0.01;
     transform: translateY(500%);
 }
+
+.auto-enter {
+  opacity: 0.01;
+  transform: translateY(500%);
+}
+
+.auto-enter.auto-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.auto-leave {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.auto-leave.auto-leave-active {
+  opacity: 0.01;
+  transform: translateY(500%);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.top{
+    display:flex;
+    justify-content: space-evenly;;
+
+}
+
+.interactive{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
 

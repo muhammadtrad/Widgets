@@ -27,6 +27,7 @@
     "package1": "0.0.0",
     "package2": "^1.0.0",
     "react": "^16.13.1",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.13.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"

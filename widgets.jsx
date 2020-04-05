@@ -16,8 +16,10 @@ const names = ['Abby', 'Barney', 'Barbara', 'Jeff', 'Jenny', 'Sarah'];
 function Root(){
   return(
     <div>
+      <div className= 'top' >
       <Clock />
       <Weather />
+      </div>
       <div className='interactive'>
       <Tabs panes={panes}/>
       <Autocomplete names={names}/>
